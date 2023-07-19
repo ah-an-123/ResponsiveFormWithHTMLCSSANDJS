@@ -8,7 +8,7 @@ signUp.onclick = () => {
   if (signUp.innerHTML == "Sign Up") {
     title.innerHTML = "Sign Up";
     login.value = "Sign Up";
-    span.innerHTML = "Have an acoount ?";
+    span.innerHTML = "Have an account ?";
     nameField.hidden = false;
     signUp.innerHTML = "Login";
   } else {

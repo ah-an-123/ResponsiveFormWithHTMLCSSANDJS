@@ -47,7 +47,7 @@ a {
 }
 
 input[type="button"] {
-    margin-block: 24px; 
+    margin-block: 24px;
     background-color: blue;
     color: white;
     border-radius: 12px;
@@ -55,40 +55,49 @@ input[type="button"] {
     font-size: 20px;
     transition: .4s;
 }
-input[type="button"]:hover{
+
+input[type="button"]:hover {
     background-color: rgb(5, 5, 76);
 }
-.links{
+
+.links {
     display: flex;
     justify-content: center;
 }
-.links img{
+
+.links img {
     max-height: 40px;
-    margin-inline:20px;
+    margin-inline: 20px;
     /* margin: 2px 20px; */
     border-radius: 20px;
     padding: 1px;
 }
-.signUp{
+
+.signUp {
     text-align: center;
     margin-block: 20px;
 }
-.signUp a{
+
+.signUp a {
     font-size: 16px;
     font-weight: 700;
-    color: blue;
+    color: rgb(75, 252, 98);
 }
 
-.signUp a:hover{
-   text-decoration: underline 2px;
-   text-underline-offset: 5px;
-   color: rgb(3, 3, 197);
+.signUp a:hover {
+    text-decoration: underline 2px;
+    text-underline-offset: 5px;
+    color: rgb(95, 248, 6);
 }
 
+#span {
+    color: white;
+    font-weight: bold;
+}
 
 /* CSS Achieve To Responsiveness */
-@media screen and (max-width:700px){
- .formBox{
-width: 100%;
- }   
+@media screen and (max-width:700px) {
+    .formBox {
+        width: 100%;
+    }
 }
